@@ -1,0 +1,26 @@
+.list-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.list-item:last-of-type {
+  border: none;
+}
+.img-container img {
+  max-width: 100%;
+  width: 80px;
+}
+
+.info-container {
+  margin: 0 16px;
+  padding: 5px;
+  width: 100%;
+}
+.info-container .movie-title {
+  margin: 0;
+}
+
+.info-container .movie-owner {
+  margin: 0;
+}
