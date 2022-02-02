@@ -1,6 +1,6 @@
 import React from 'react';
 import './comment.css';
-const Comment = ({ moh: { comment, name, imgSrc } }) => {
+const Comment = ({ comment: { comment, name, imgSrc } }) => {
   return (
     <div className="comment-container">
       {imgSrc ? (
